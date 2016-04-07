@@ -13,10 +13,10 @@
   "description": "Build a Backbone View with a Knockout view model and a template",
   "keywords": [
     "Backbone",
-    " Knockout",
-    " view",
-    " view model",
-    " MVVM"
+    "Knockout",
+    "view",
+    "view model",
+    "MVVM"
   ],
   "author": {
     "name": "Wei Wei",
@@ -30,6 +30,7 @@
     "babel-core": "^6.7.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.6.0",
+    "backbone": "^1.3.3",
     "chai": "^3.5.0",
     "del": "^2.2.0",
     "escodegen": "^1.8.0",
@@ -46,6 +47,7 @@
     "istanbul-instrumenter-loader": "^0.2.0",
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
+    "jquery": "^2.2.3",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.3",
     "karma-coverage": "^0.5.5",
@@ -54,6 +56,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
+    "knockout": "^3.4.0",
     "lodash": "^4.8.2",
     "mocha": "^2.4.5",
     "phantomjs-prebuilt": "^2.1.7",
@@ -62,5 +65,11 @@
     "underscore": "^1.8.3",
     "webpack": "^1.12.14",
     "webpack-stream": "^3.1.0"
+  },
+  "peerDependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^2.2.3",
+    "knockout": "^3.4.0",
+    "underscore": "^1.8.3"
   }
 }
